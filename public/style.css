@@ -1,0 +1,51 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: url('background.png') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 120px auto;   /* Push form lower on screen */
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+textarea, input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    background-color: #222;    /* Dark text box */
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    background-color: #1a1a1a;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #333;
+}
+
+footer {
+    margin-top: 40px;   /* 2 cm gap below the result textbox */
+    text-align: center;
+    color: white;
+    font-size: 14px;
+}
